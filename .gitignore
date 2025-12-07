@@ -1,0 +1,64 @@
+# ============================
+# C++ Build / Compiler Outputs
+# ============================
+
+# Object files
+*.o
+*.obj
+
+# Compiled Dynamic Libraries
+*.so
+*.dll
+*.dylib
+
+# Compiled Static Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+a.out
+
+# CMake build folder
+/build/
+/cmake-build*/
+
+# Code::Blocks
+*.cbp
+*.layout
+
+# CLion / JetBrains IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore compiled test outputs
+/tests/bin/
+/tests/build/
+
+# Ignore generated documentation
+/docs/html/
