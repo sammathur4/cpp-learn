@@ -28,6 +28,8 @@ namespace Utils {
 }
 
 int main() {
+    using namespace std;
+    cout<< "std one" << endl;
     Utils::printTitle("Namespace Demo");
 
     int sum = Math::add(5, 7);
